@@ -154,7 +154,8 @@ void graphics::DrawingArea::calculateObjects(std::vector<Triangle<float>>& trans
 	float scaleY = _areaRect.height;
 	float scaleZ = 1.0f;
 
-	math::Vec3d<float> light(config::objectPreset::lightPositionX, config::objectPreset::lightPositionY, config::objectPreset::lightPositionZ);
+	//math::Vec3d<float> light(config::objectPreset::lightPositionX, config::objectPreset::lightPositionY, config::objectPreset::lightPositionZ);
+	math::Vec3d<float> light(PZDZ_GLOBAL_X, PZDZ_GLOBAL_Y, PZDZ_GLOBAL_Z);
 
 	math::Matrix<float> centeringMatrix;
 	centeringMatrix.init();

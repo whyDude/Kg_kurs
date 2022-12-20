@@ -26,10 +26,10 @@ namespace graphics
 			{-1.0f,  1.0f, -1.0f},
 			{ 1.0f,  1.0f, -1.0f},
 			{ 1.0f, -1.0f, -1.0f},
-			{-1.0f, -1.0f,  1.0f},
-			{-1.0f,  1.0f,  1.0f},
-			{ 1.0f,  1.0f,  1.0f},
-			{ 1.0f, -1.0f,  1.0f}
+			{-1.0f, -1.0f,  2.0f},
+			{-1.0f,  1.0f,  2.0f},
+			{ 1.0f,  1.0f,  2.0f},
+			{ 1.0f, -1.0f,  2.0f}
 		};
 
 		std::vector<ConnectedVertices> connectedVerticesCube = {

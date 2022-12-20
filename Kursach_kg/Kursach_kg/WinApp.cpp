@@ -154,6 +154,9 @@ LRESULT WinApp::MainWindowEventHander(HWND hWnd, UINT message, WPARAM wParam, LP
 			}
 			case WM_KEYDOWN:
 			{
+
+				int PZDC_flag = 1;
+
 				int16_t step = 4;
 				switch (wParam)
 				{
@@ -170,36 +173,62 @@ LRESULT WinApp::MainWindowEventHander(HWND hWnd, UINT message, WPARAM wParam, LP
 				// Перемещения
 				case VK_UP:
 				{
+					if (PZDC_flag)
+					{
+						pThis->drawingArea->PZDZ_GLOBAL_Y -= 10;
+					break;
+				}
 					pThis->drawingArea->moveObjects(0, -10, 0);
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
 				}
 				case VK_DOWN:
 				{
+					if (PZDC_flag){
+						pThis->drawingArea->PZDZ_GLOBAL_Y += 10;
+					break;
+				}
 					pThis->drawingArea->moveObjects(0, 10, 0);
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
 				}
 				case VK_LEFT:
 				{
+					if (PZDC_flag){
+						pThis->drawingArea->PZDZ_GLOBAL_X -= 10;
+					break;
+				}
 					pThis->drawingArea->moveObjects(-10, 0, 0);
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
 				}
 				case VK_RIGHT:
 				{
+					if (PZDC_flag){
+						pThis->drawingArea->PZDZ_GLOBAL_X += 10;
+					break;
+				}
 					pThis->drawingArea->moveObjects(10, 0, 0);
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
 				}
 				case 'R':
 				{
+					if (PZDC_flag)
+					{ 
+						pThis->drawingArea->PZDZ_GLOBAL_Z += 10;
+						break;
+					}
 					pThis->drawingArea->moveObjects(0, 0, step);
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
 				}
 				case 'T':
 				{
+					if (PZDC_flag){
+						pThis->drawingArea->PZDZ_GLOBAL_Z -= 10;
+					break;
+				}
 					pThis->drawingArea->moveObjects(0, 0, -step);
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
@@ -243,6 +272,18 @@ LRESULT WinApp::MainWindowEventHander(HWND hWnd, UINT message, WPARAM wParam, LP
 					InvalidateRect(hWnd, NULL, NULL);
 					break;
 				}
+
+				case '+':
+				{
+					if (PZDC_flag)
+						PZDC_flag = 0;
+					else
+						PZDC_flag = 1;
+
+
+					break;
+				}
+
 
 				// Масштабирование
 

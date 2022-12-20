@@ -19,6 +19,11 @@ namespace graphics
 	class DrawingArea : public Graphics
 	{
 	public:
+
+		float PZDZ_GLOBAL_X;
+		float PZDZ_GLOBAL_Y;
+		float PZDZ_GLOBAL_Z;
+
 		DrawingArea() : _areaRect(controls::WidgetRect()), _backgroundColor(0) {};
 		DrawingArea(int32_t x, int32_t y, int32_t width, int32_t heignt, uint32_t backgroud);
 		DrawingArea(controls::WidgetRect& areaSize, uint32_t backgroud);
