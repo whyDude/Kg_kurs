@@ -1,0 +1,136 @@
+﻿  DrawingArea.cpp
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(80,23): warning C4267: =: преобразование из "size_t" в "int16_t"; возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(86,12): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(92,18): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(113,44): warning C4244: аргумент: преобразование "int32_t" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(113,37): warning C4244: аргумент: преобразование "int32_t" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(113,30): warning C4244: аргумент: преобразование "int32_t" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(119,39): warning C4244: аргумент: преобразование "int32_t" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(119,33): warning C4244: аргумент: преобразование "int32_t" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(119,27): warning C4244: аргумент: преобразование "int32_t" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(153,15): warning C4244: инициализация: преобразование "int32_t" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(154,15): warning C4244: инициализация: преобразование "int32_t" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(161,68): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(161,46): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(165,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Object.h(231,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Object.h(210): message : во время компиляции функции-члена класс шаблон "void graphics::Object<float>::create(void)"
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(81): message : выполняется компиляция ссылки на экземпляр шаблон функции "void graphics::Object<float>::create(void)"
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(79): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "graphics::Object<float>"
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Object.h(289,70): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Object.h(288): message : во время компиляции функции-члена класс шаблон "void graphics::Object<float>::setUserRotateXYZ(T,T,T)"
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\DrawingArea.cpp(119): message : выполняется компиляция ссылки на экземпляр шаблон функции "void graphics::Object<float>::setUserRotateXYZ(T,T,T)"
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Object.h(290,70): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Object.h(291,70): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  Graphics.cpp
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(240,30): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(240,23): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(240,18): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(240,12): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(241,29): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(241,23): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(241,18): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(241,12): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(242,33): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(242,26): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(242,18): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(242,12): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(243,31): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(243,24): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(243,19): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(243,12): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(260,31): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(260,24): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(260,19): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(260,13): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(268,20): warning C4244: =: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int32_t
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(269,20): warning C4244: =: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int32_t
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(279,20): warning C4244: =: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int32_t
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(280,20): warning C4244: =: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int32_t
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(282,68): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(282,53): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(282,42): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(282,36): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(375,20): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(375,14): warning C4244: аргумент: преобразование "float" в "int32_t", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(605,25): warning C4244: =: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int32_t
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(606,25): warning C4244: =: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int32_t
+          ]
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(619,106): warning C4244: аргумент: преобразование "int32_t" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(619,88): warning C4244: аргумент: преобразование "int32_t" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(619,72): warning C4244: аргумент: преобразование "int32_t" в "float", возможна потеря данных
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Kursach_kg\Graphics.cpp(619,55): warning C4244: аргумент: преобразование "int32_t" в "float", возможна потеря данных
+  main.cpp
+  Presets.cpp
+  WidgetRect.cpp
+  WinApp.cpp
+  Создание кода...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Flesh\SUAI_works\Kurs_kg\Kursach_kg\Debug\Kursach_kg.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
